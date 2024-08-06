@@ -23,11 +23,11 @@ To run this app locally:
 
 1. Clone the repository:
     ```bash
-    git clone <repository-url>
+    git clone https://github.com/Sai-Roopesh/.ipynb-to-.py-convertor.git
     ```
 2. Navigate to the project directory:
     ```bash
-    cd <project-directory>
+    cd .ipynb-to-.py-convertor
     ```
 3. Install the required packages:
     ```bash

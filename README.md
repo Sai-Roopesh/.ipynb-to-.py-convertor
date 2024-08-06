@@ -29,11 +29,23 @@ To run this app locally:
     ```bash
     cd .ipynb-to-.py-convertor
     ```
-3. Install the required packages:
+3. Create a virtual environment:
+    ```bash
+    python -m venv env
+    ```
+4. Activate the virtual environment:
+    ```bash
+    # On Windows
+    .\env\Scripts\activate
+
+    # On macOS/Linux
+    source env/bin/activate
+    ```
+5. Install the required packages:
     ```bash
     pip install -r requirements.txt
     ```
-4. Run the Streamlit app:
+6. Run the Streamlit app:
     ```bash
     streamlit run app.py
     ```
@@ -45,8 +57,5 @@ To run this app locally:
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Contributions are welcome! Please feel free to submit a Pull Request. Here are some ways you can contribute:
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
